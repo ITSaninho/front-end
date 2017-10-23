@@ -1,0 +1,4 @@
+
+Options Indexes FollowSymLinks
+DirectoryIndex Index.php
+php_flag register_globals 1

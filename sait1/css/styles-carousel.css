@@ -1,0 +1,42 @@
+﻿.carousel  {
+   max-width: 1000px;
+   width:100%;
+}
+.carousel-wrapper {
+   margin: 30px 20px; 
+   overflow: hidden; 
+   position:relative;
+}
+.carousel-items {
+   width: 10000px; 
+   position: relative; 
+}
+.carousel-block {
+   float: left; 
+   width: 212px; 
+   margin-left:18px; 
+}
+.carousel-block img{
+	display:block;
+}
+
+/*********** Кнопки ***********/
+.carousel-button-left a, .carousel-button-right a{
+   width: 33px; 
+   height: 33px; 
+   position: relative;
+   top: 130px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-left a{
+   float: left;
+   background:url(../image_carusel/left-arrow.png); 
+}
+.carousel-button-right a{
+   float: right;
+   background: url(../image_carusel/right-arrow.png);
+}
+
+.button_news{position:absolute; top:180px; margin-left:125px;}
+

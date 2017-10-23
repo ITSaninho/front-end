@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+body, p, ul, h1{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #e4e4e4;
+}
+
+
+
+.top_line{
+	background-color: #ffffff;
+	height: 30px;
+	box-shadow: 0px 3px 11px -4px #000000;
+}
+
+
+.menu_line{
+	width: 960px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+
+
+.menu_line li{
+	float: left;
+	list-style-type: none;
+}
+
+.menu{
+	margin-top: 5px;
+	float: left;
+}
+
+.menu li{
+	margin-right: 20px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #8a8a8a;
+	font-weight: 700;
+}
+
+.menu li a:hover{
+	color: #3e3e3e;
+}
+
+
+.social{
+	margin-top: 5px;
+	float: right;
+}
+
+.social li{
+	margin-left: 20px;
+}
+
+.social li a img:hover{
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+}
+
+
+.main_block{
+	width: 960px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.main_block h1{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	color: #5c5757;
+}
+
+.header > .menu{
+	width: 960px;
+	height: 35px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	box-shadow: 0px 3px 11px -4px #000000;
+}
+
+.header > .menu ul li{
+	margin-top: 10px;
+	list-style-type: none;
+	float: left;
+}
+
+.header > .menu ul li:first-of-type{
+	margin-left: 10px;
+}
+
+.header > .menu ul li{
+	margin-right: 15px;
+}
+
+
+.header > .menu ul li a{
+	text-transform: uppercase;
+	color: #5c5c5c;
+	font-weight: 600;
+}
+
+.header > .menu ul li a:hover{
+	text-transform: uppercase;
+	color: #222222;
+	font-weight: 700;
+}
+
+
+.slider{
+	width: 960px;
+	height: 450px;
+	margin: 0 auto;
+	box-shadow: 0px 3px 11px -4px #000000;
+}
+
+
+.content{
+	position: relative;
+	width: 960px;
+	height: auto;
+}
+
+.content > p,h4{
+	margin: 0px;
+	padding: 0px;
+}
+
+.content > .center_block{
+	width: 490px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.content > .center_block > .mini_block > h2{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+.content > .center_block > .mini_block > h2 > a{
+	color: #747474;
+	text-decoration: none;
+}
+
+.content > .center_block > .mini_block > h2 > a:hover{
+	color: #3f3f3f;
+	font-weight: bold;
+}
+
+.content > .center_block ul{
+	width: 100%;
+}
+
+
+.content > .center_block ul > li{
+	float: left;
+	list-style-type: none;
+	margin-right: 20px;
+	width: 22%;
+}
+
+.content > .center_block ul > li > img{
+	float: left;
+	margin-right: 10px;
+}
+
+.content > .center_block ul > li > p{
+	font-size: 12px;
+	color: #434343;
+	font-weight: 700;
+}
+
+.content > .center_block > .mini_block{
+	margin-bottom: 15px;
+	background-color: #ffffff;
+	padding: 6px;
+	box-shadow: 0px 3px 11px -4px #000000;
+}
+
+.content > .center_block > .mini_block > .mini_block_img_p img{
+	width: 100%;
+}
+
+.content > .center_block > .mini_block > .mini_block_img_p p{
+	font-size: 14px;
+	font-weight: 700;
+	color: #5d5c5c;
+}
+
+
+
+.content > .left_block{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 210px;
+	height: 800px;
+}
+
+.content > .right_block{
+	top: 0px;
+	right: 0px;
+	width: 210px;
+	height: 800px;
+	position: absolute;
+}
+
+
+.content > .left_block > .mini_block,
+.content > .right_block > .mini_block{
+	padding: 5px;
+	background-color: #ffffff;
+	box-shadow: 0px 3px 11px -4px #000000;
+	margin-bottom: 15px;
+}
+
+.content > .left_block > .mini_block > .mini_block_img_p,
+.content > .right_block > .mini_block > .mini_block_img_p{
+	padding-bottom: 7px;
+}
+
+.content > .left_block > .mini_block img,
+.content > .right_block > .mini_block img{
+	width: 35%;
+	float: left;
+	height: 51px;
+	margin-right: 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+
+.content > .left_block > .mini_block p > a,
+.content > .right_block > .mini_block p > a{
+	font-size: 13px;
+	font-weight: bold;
+	color: #535353;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+
+.content > .left_block > .mini_block p > a:hover,
+.content > .right_block > .mini_block p > a:hover{
+	color: #000000;
+}
+
+
+
+
+.clear{
+	clear: both;
+}
+
+
+.footer{
+	margin-top: 700px;
+	background-color: #ffffff;
+	height: 50px;
+	padding-top: 15px;
+}
+
+.footer p{
+	text-align: center;
+}
+

@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 30px;
+	background-color: #f0f0f0;
+}
+
+p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main_block{
+ 	box-shadow: 0px -9px 6px 0px   #000000 inset;
+	margin: 0 auto;
+	width: 1050px;
+	background-color: #ffffff;
+	border-top: 2px solid grey;
+	margin-bottom: 40px;
+}
+
+
+/*Шапка*/
+.header{
+	margin: 0 auto;
+	width: 1000px;
+	height: 150px;
+}
+
+
+.logo{
+	margin-top: 50px;
+	margin-left: 30px;
+	color: #5b5b5b;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.menu_block{
+	margin: 0 auto;
+	width: 950px;
+	height: 50px;
+	background-color: #393939;
+}
+
+.menu_block ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu_block li{
+	float: left;
+	list-style-type: none;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.menu a{
+	color: #d0d0d0;
+	margin-top: 15px;
+}
+
+.menu a:hover{
+	color: #ffffff;
+}
+
+.menu a > li{
+	padding-top: 17px;
+	padding-bottom: 15px;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+}
+
+.social{
+	float: right;
+}
+
+.social li{
+	padding-top: 17px;
+	padding-bottom: 15px;
+}
+
+
+.content{
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 950px;
+}
+
+.content h1{
+	color: #5c5c5c;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.content > p{
+	font-size: 18px;
+	color: #5c5c5c;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+.moduls{
+	padding-left: 120px;
+	width: 950px;
+	height: 250px;
+}
+
+
+.modul{
+	margin-left: 20px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.modul_img{
+	width: 70px;
+	height: 70px;
+	padding: 30px;
+	background-color: #d9d6d6; 
+	border-radius: 65px 65px 65px 65px;
+	margin-bottom: 20px;
+}
+
+.modul_img img{
+	margin-left: 30%;
+	margin-top: 30%;
+}
+
+
+.modul p a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: #5c5c5c;
+}
+
+.modul:hover .modul_img{
+	background-color: #75cec2;
+}
+
+.modul:hover p > a{
+	color: #75cec2;
+}
+
+
+.footer{
+	padding-top: 20px;
+	width: 1050px;
+	height: 50px;
+	background-color: #393939;
+}
+
+.footer p{
+	text-align: center;
+	color: #ffffff;
+}

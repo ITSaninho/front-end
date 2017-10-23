@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+#main_block{width:1250px; height:2140px; margin:0px auto; background-image:url(../img/line_black_color.jpg); background-repeat:repeat-x;}
+	/*Шапка*/
+	#footer{height:260px; width:1000px; margin:0px auto;}
+		#foter_top{width:1000px; margin:0px auto; height:45px;}
+			/*Соціальні мережі*/
+			#soc{margin:0px; padding:0px; margin-left:60px;}
+			#soc li{float:left; color:#FFF; text-decoration:none; list-style:none; margin-top:13px; margin-right:9px;}
+			#soc img{vertical-align:middle;}
+			
+			/*Мова*/
+			#lang{margin:0px; padding:0px; margin-left:240px;}
+			#lang li{float:left; color:#dadada; margin-right:10px; text-decoration:none; list-style:none; padding:0px; width:30px; margin-top:15px;}
+			#lang li a{text-decoration:none; color:#dadada;}
+			#lang li a:hover{text-decoration:none; color:#ffffff; font-weight:500;}
+			
+			/*Пошук*/
+			#search{float:right; width:105px; margin-top:15px; border-radius:10px 10px 10px 10px; font-size:12px; color:#FCFCFC; background-color:#000; border:#000;}
+			.search{float:right; margin-top:15px;}
+			
+			/*Корзина*/
+			#shoping_bag{float:right; height:45px; width:135px; margin-left:45px;}
+			#shoping_bag p{color:#FCFCFC; float:left; font-size:12px; margin-right:15px; margin-top:16px; font-weight:lighter;}
+			#shoping_bag img{color:#FFF; margin-top:12px;}
+			
+		/*Логотип*/	
+		#footer_logo_img{height:210px;}
+		#line{margin-left:48%; margin-top:-23px; margin-bottom:30px;}
+		#logo{color:#000000; font-size:36px; font-family:"Times New Roman", Times, serif; font-weight:bold; display:block; margin:0 auto;}
+		
+	/*Меню*/	
+	#menu{height:30px; width:1000px; text-align:center; margin:0px auto; padding:0px; margin-top:10px; margin-bottom:10px; border-top:#eeeeee solid 1px; border-bottom:#eeeeee solid 1px;}
+	#menu li{list-style:none; display:inline-block; margin-top:6px; width:15%; text-align:center; font-size:18px; color:#636363;}
+	#menu li a{list-style:none; font-size:18px; color:#636363; text-decoration:none;}
+	
+	/*Ротатор банера*/
+	#big_slayder_bar{height:550px; width:1000px; margin:0px auto; margin-bottom:35px;}
+		#container {width:1000px; margin:0 auto;	position:relative;	z-index:0; margin:0px;}
+		#slides {position:absolute;z-index:100;}
+		#slides .next,#slides .prev {position:absolute; top:250px; left:70px; width:52px; height:52px; display:block; z-index:101;}
+		.slides_container{width:1000px; height:550px; overflow:hidden; position:relative; margin:0px;}
+		#slides .next {left:900px;}
+		.whats{position:absolute;z-index:103; left:250px; top:200px; width:493px; height:55px;}
+		.take_look{position:absolute;z-index:102; left:400px; top:380px; width:200px; height:50px;}
+	
+	
+	#new_arrival{height:415px; width:1000px; margin:0px auto; margin-bottom:0px;}
+	#new_arrival ul{color:#848381; font-size:14px; margin-top:0px; text-transform:uppercase; text-align:center; padding:0px; margin:0px;}
+	#new_arrival ul li{list-style:none; display:inline-block; margin-left:10px; padding:0px; margin:0px;}
+	
+	#down_grey_line{margin-top:-4px;}
+
+	
+	/*ABOUT GABOR DOMINIC - лівий блок*/
+	#about_gabor_dominic{height:310px; width:1000px; margin:0px auto;}
+		#left{float:left; width:50%;height:100%}
+		#left ul{color:#848381; font-size:14px; margin-top:0px; text-transform:uppercase; margin:0px; text-align:center; padding:0px;}
+		#left ul li{list-style:none; display:inline-block; margin-left:10px; padding:0px; margin:0px; margin-bottom:15px; font-size:14px;}
+		#left h4{color:#000000; font-size:12px; margin-left:7px; font-weight:bold;}
+		#left p{color:#797979; margin-left:7px;}
+		#left h5{color:#343434; margin-left:7px; text-transform:uppercase;}
+		#left h5 a{color:#343434; text-decoration:none;}
+		
+		/*email input - правий блок*/
+		#right{height:100%; float:right;}
+		#right > h3{color:#000000; font-size:36px; margin:0px; width:325px; text-align:center; height:40px; font-weight:normal; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+		#block_email > p{color:#343434; text-align:center; margin-left:55px; margin-right:55px; margin-top:10px;}
+		#block_email{width:330px; height:215px; background-color:#eeeeee; margin-right:160px; padding-top:35px;}
+		#email{text-align:center; margin-left:7%; height:45px; width:275px; color:#afafaf; font-size:14px; text-transform:uppercase;}
+		#sign_up{position:absolute; margin-top:-153px; margin-left:345px; height:50px; width:130px; font-size:14px; color:#343434; text-transform:uppercase;}
+		
+	/*Блок інстаграму*/	
+	#instagram{height:450px; width:1000px; margin:0px auto;}
+		#instagram ul{color:#848381; font-size:14px; margin-top:15px; text-transform:uppercase;text-align:center; padding:0px; margin-bottom:10px;}
+		#instagram ul li{list-style:none; display:inline-block; margin-left:10px;}
+		#instagram img{color:#000000; font-size:36px; font-family:"Times New Roman", Times, serif; font-weight:bold; display:block; margin:0 auto; margin-bottom:25px;}
+		
+	/*Самий низ)*/
+	#down{height:30px; width:1000px; margin:0px auto; padding:0px; padding-top:20px;}
+	#down p{color:#848381; font-size:14px; text-align:center; margin-top:0px;}
+		
+		

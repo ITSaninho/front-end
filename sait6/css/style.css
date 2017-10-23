@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main_block{
+	padding: 0px;
+	background-color: #f7f7f9;
+}
+
+.main_block img{
+	width: 100%;
+}
+
+/*Шапка*/
+.header{
+	margin: 0 auto;
+	width: 1000px;
+	height: 200px;
+}
+
+.logo{
+	width: 1000px;
+	height: 130px;
+}
+
+.logo h1{
+	font-size: 42px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+}
+
+.logo p{
+	margin-top: 50px;
+	margin-left: 10px;
+	color:#a6a6a6;
+	float: left;
+}
+
+.logo input{
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: none;
+	margin-top: 50px;
+	margin-right: 30px;
+	float: right;
+	background-image: url(../img/search.png);
+	background-repeat: no-repeat;
+	background-position: 170px;
+	height: 30px;
+	width: 200px;
+}
+
+.menu_line{
+	margin: 0 auto;
+	width: 980px;
+	height: 70px;
+	border-radius: 7px 7px 7px 7px;
+	background-color: #77c8d6;
+	border:2px solid #aeadad;
+}
+
+.menu_line ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu{
+	float: left;
+}
+
+.social{
+	float: right;
+
+}
+
+.social li{
+	margin-top: 25px;
+	margin-right: 25px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.menu_line ul li{
+	list-style-type: none;
+	float: left;
+}
+
+.menu a li{
+	cursor: pointer;
+}
+
+.menu a li{
+	text-decoration: none;
+	color: #f5f5f5;
+	font-size: 18px;
+}
+
+
+.menu_line ul > a > li:hover{
+	background-color: #282828;
+}
+
+.menu_line ul > li:hover{
+	background-color: #282828;
+}
+
+
+
+.home:hover{
+	border-radius: 7px 0px 0px 7px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 25px;
+	padding-bottom: 21px;
+}
+
+.menu a > li{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+.content{
+	margin: 0 auto;
+	width: 1000px;
+	height: 900px;
+}
+
+.content h2{
+	margin-top: 30px;
+	margin-left: 20px;
+	color: #221f1f;
+}
+
+
+.block_info{
+	margin-left: 38px;
+	margin-right: 0px;
+	float: left;
+	border-radius: 10px 10px 10px 10px;
+	width: 280px;
+	height: 375px;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+.block_info a > img{
+	/*Чорнобіла картика*/
+	-webkit-filter: grayscale(100%);
+  	-moz-filter: grayscale(100%);
+  	-ms-filter: grayscale(100%);
+  	-o-filter: grayscale(100%);
+  	filter: grayscale(100%);
+  	filter: gray; /* IE 6-9 */
+	border-radius: 7px 7px 7px 7px;
+	width: 99%;
+	border:2px solid #aeadad;
+	overflow: hidden;
+	height:185px;
+}
+
+
+.block_info a > img:hover{
+	-webkit-filter: none;
+  	-moz-filter: none;
+  	-ms-filter: none;
+  	-o-filter: none;
+  	filter: none;
+  	filter: none; /* IE 6-9 */
+  	cursor: pointer;
+	border-radius: 7px 7px 7px 7px;
+	width: 99%;
+	border:2px solid #aeadad;
+}
+
+
+
+.block_info h3{
+	text-align: center;
+}
+
+.block_info h3 > a{
+	text-decoration: none;
+	color: #55b7c8;
+}
+
+.block_info h3 > a:hover{
+	text-decoration: none;
+	color: #408894;
+}
+
+
+.block_info p{
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	height:72px;
+    text-overflow: ellipsis;
+}
+
+.read_more{
+	text-decoration: none;
+	color: #55b7c8;
+	margin-left: 100px;
+}
+
+
+.read_more:hover{
+	text-decoration: none;
+	color: #408894;
+	margin-left: 100px;
+}
+
+
+.footer{
+	padding-top: 20px;
+	background-color: #000000;
+	width: 100%;
+	height: 100px;
+	outline: yellow solid 1px;
+}
+
+.footer p{
+	text-align: center;
+	color: #ffffff;
+}
+
+
+
+.content_page{
+	margin-left: 38px;
+	margin-right: 30px;
+}
+
+.contact_info{
+	float: left;
+}
+
+.contact_form{
+	padding-left: 30px;
+	padding-bottom: 15px;
+	border-radius: 7px 7px 7px 7px;
+	border: 2px solid;
+	width: 400px;
+}
+
+.contact_form input{
+	width: 365px;
+	height: 40px;
+	margin-bottom: 5px;
+}
+
+.contact_form textarea{
+	width: 365px;
+	height: 100px;
+	resize: none;
+}
+
+.location{
+	float: right;
+}
+
+.content_page h3{
+	text-align: center;
+	font-size: 18px;
+}
+
+.content_page h3 a{
+	color: #5cbbcb;
+	text-decoration: none;
+}
+
+.content_page h3 a:hover{
+	color: #123c43;
+	text-decoration: none;
+}
+
+.content_page img{
+	width: 30%;
+	float: left;
+	margin-right: 30px;
+}
